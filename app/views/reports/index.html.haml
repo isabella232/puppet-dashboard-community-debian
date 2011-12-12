@@ -1,0 +1,12 @@
+#sidebar= render 'shared/node_manager_sidebar'
+#main
+  .header
+    %h2
+      Reports
+      - if @node
+        %span.alt for
+        = link_to @node.name, @node
+      %span.count== (#{@reports.total_entries})
+
+  .item
+    = render 'reports/reports_table', :reports => @reports, :node => @node

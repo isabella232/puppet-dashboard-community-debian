@@ -1,0 +1,20 @@
+#sidebar= render 'shared/node_manager_sidebar'
+#main
+
+  .header
+    %h2.half
+      - if action_name != 'index'
+        = action_name.titleize.capitalize
+        nodes
+      - else
+        Nodes
+      = describe_search_if_present
+    = render 'search'
+    %br.clear
+
+  .item
+    .section
+      = render 'statuses/run_failure', :nodes => @nodes
+    .section
+      %h3 Nodes
+      = render 'nodes', :nodes => @nodes, :selected_status => action_name
