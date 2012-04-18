@@ -1,8 +1,9 @@
-puppet-dashboard (1.2.4-1puppetlabs1) intrepid jaunty karmic lucid meerkat narwhal natty lenny squeeze; urgency=low
+-n puppet-dashboard (1.2.7-1puppetlabs1) intrepid jaunty karmic lucid meerkat narwhal natty lenny squeeze; urgency=low
 
-  * build at version 1.2.4-1puppetlabs1
+  * build at version 1.2.7-1puppetlabs1
 
- -- Michael Stahnke  <stahnma@puppetlabs.com>  Mon, 12 Dec 2011 13:16:58 -0800
+ -- Michael Stahnke  <stahnma@puppetlabs.com>  Mon, 26 Mar 2012 14:12:37 -0700
+
 
 puppet-dashboard (1.1.1-1) intrepid jaunty karmic lucid meerkat narwhal; urgency=low
 
