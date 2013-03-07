@@ -1,2 +1,0 @@
-class ParameterConflictError < StandardError
-end

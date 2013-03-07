@@ -1,2 +1,0 @@
-class IncorrectReportKind < StandardError
-end
