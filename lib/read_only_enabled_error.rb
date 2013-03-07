@@ -1,2 +1,0 @@
-class ReadOnlyEnabledError < StandardError
-end
